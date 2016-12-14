@@ -1,6 +1,6 @@
-CC = g++
-OBJECT_FILES = main.o Finds.o
-CPPFLAGS = -std=c++11
+CC = g++-5
+OBJECT_FILES = main.o Finds.o FindIfs.o
+CPPFLAGS = -std=c++14
 
 default : all
 all : Finds
